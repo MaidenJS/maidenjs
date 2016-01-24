@@ -1,0 +1,7 @@
+testum, karma
+
+jasmine, mocha
+
+folder structure?
+
+client vs backend?

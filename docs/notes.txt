@@ -1,0 +1,32 @@
+dependencies
+-----------------------------------------------
+gulp
+browserify
+react, angular, marionette?
+db -> mongo, firebase
+node & express as the core
+
+## Anatomy of an API call
+------------------------------------------------
+- Route - name / include query strings in url => route/routes.js
+app.use('POST', blog/commands/request(input request from the user))
+
+
+- Input/Request - GET/POST/PUT/DELETE/PATCH etc... + Query strings ?query=input
+- validation / sanitization
+- business logic / inserting into the db
+- event triggers (pub sub model) -> before and after
+- output response -> success and/or error messages - transformers?
+
+- what about middle ware???? such as csrf?
+
+## Components - Pioneer\
+------------------------------------------------
+- AUTH
+- DB wrapper for mongo, firebase, etc....
+
+how to create a command line interface (cli)
+------------------------------------------------
+install nodejs on computer
+npm install -g maiden
+maiden new project
