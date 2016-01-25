@@ -30,3 +30,45 @@ how to create a command line interface (cli)
 install nodejs on computer
 npm install -g maiden
 maiden new project
+
+
+
+npm install express --save
+
+thenewboston
+https://www.youtube.com/watch?v=-u-j7uqU7sI&list=PL6gx4Cwl9DGBMdkKFn3HasZnnAqVjzHn_
+mean stack build app
+https://www.youtube.com/watch?v=7F1nLajs4Eo&index=2&list=PLX2HoWE32I8Nkzw2TqcifObuhgJZz8a0U
+buil 10 apps with nodejs
+
+What is Node.js Exactly? - a beginners introduction to Nodejs
+https://www.youtube.com/watch?v=pU9Q6oiQNd0&list=PLoYCgNOIyGAACzU6GliHJDp4kmOw3NFsh
+
+packages
+--------------------------------
+mongojs, mongoose, mongodb
+express 4
+angular 1, 2 / react / backbone / vanilla
+angular-ui-router
+node.js
+gulp
+browserify
+browser-sync
+babel -> for ecma script 6
+babelify
+uglify
+karma-jasmine / karma-mocha / karma-pahntomjs
+bootstrap / bootstrap-sass?
+jquery
+lodash
+
+want to:
+convert js to ecmascript6
+concat js, css browsierfy, gulp-sass
+minify js, css uglify
+livereload / watch / browsrify
+testing
+
+docs website -> do what laravel did -> git clone laravel.com then
+in resources/views/docs/5.2 clone the docs 5.2 branch
+
