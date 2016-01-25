@@ -1,11 +1,3 @@
-dependencies
------------------------------------------------
-gulp
-browserify
-react, angular, marionette?
-db -> mongo, firebase
-node & express as the core
-
 ## Anatomy of an API call
 ------------------------------------------------
 - Route - name / include query strings in url => route/routes.js
@@ -27,13 +19,14 @@ app.use('POST', blog/commands/request(input request from the user))
 
 how to create a command line interface (cli)
 ------------------------------------------------
+install git on computer
 install nodejs on computer
 npm install -g maiden
 maiden new project
-
-
-
-npm install express --save
+cd project
+npm install
+maiden serve
+go to localhost:1337
 
 thenewboston
 https://www.youtube.com/watch?v=-u-j7uqU7sI&list=PL6gx4Cwl9DGBMdkKFn3HasZnnAqVjzHn_
@@ -44,19 +37,18 @@ buil 10 apps with nodejs
 What is Node.js Exactly? - a beginners introduction to Nodejs
 https://www.youtube.com/watch?v=pU9Q6oiQNd0&list=PLoYCgNOIyGAACzU6GliHJDp4kmOw3NFsh
 
-packages
+packages / dependencies
 --------------------------------
-mongojs, mongoose, mongodb
-express 4
-angular 1, 2 / react / backbone / vanilla
-angular-ui-router
-node.js
+mongojs, mongoose, mongodb *
+express 4 *
+angular 1, 2 / react / backbone / vanilla *
+angular-ui-router *
 gulp
 browserify
-browser-sync
+browser-sync *
 babel -> for ecma script 6
 babelify
-uglify
+uglify *
 karma-jasmine / karma-mocha / karma-pahntomjs
 bootstrap / bootstrap-sass?
 jquery
@@ -69,6 +61,8 @@ minify js, css uglify
 livereload / watch / browsrify
 testing
 
-docs website -> do what laravel did -> git clone laravel.com then
+docs website
+-------------------------------
+-> do what laravel did -> git clone laravel.com then
 in resources/views/docs/5.2 clone the docs 5.2 branch
 
