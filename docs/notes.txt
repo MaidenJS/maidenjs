@@ -5,10 +5,11 @@ app.use('POST', blog/commands/request(input request from the user))
 
 
 - Input/Request - GET/POST/PUT/DELETE/PATCH etc... + Query strings ?query=input
-- validation / sanitization
-- business logic / inserting into the db
+- middleware
+- validation / sanitization -> form
+- business logic / inserting into the db -> business
 - event triggers (pub sub model) -> before and after
-- output response -> success and/or error messages - transformers?
+- output response -> success and/or error messages format - transformers?
 
 - what about middle ware???? such as csrf?
 

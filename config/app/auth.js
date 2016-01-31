@@ -1,3 +1,6 @@
 /**
- * Created by yichen on 1/24/2016.
+ * Goals:
+ * to create
+ * normal auth, oauth drivers for fb, twitter, github, linkedin etc......
  */
+

@@ -1,3 +1,8 @@
 /**
- * Created by yichen on 1/24/2016.
+ * Goals:
+ * to create
+ * a nosql db layer for mongo, firebase?
+ *
+ * options:
+ * to connect to mongo automatically
  */
