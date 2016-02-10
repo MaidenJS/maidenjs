@@ -1,21 +1,77 @@
-## MaidenJS Framework
+# MaidenJS Framework
 
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/version.png)](https://packagist.org/packages/laravel/framework) [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.png)](https://packagist.org/packages/laravel/framework) [![Build Status](https://travis-ci.org/laravel/framework.png)](https://travis-ci.org/laravel/framework) [![License](https://poser.pugx.org/laravel/framework/license.png)](https://packagist.org/packages/laravel/framework)
+[![Build Status](https://travis-ci.org/laravel/framework.png)](https://travis-ci.org/laravel/framework)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+## Features
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+frontend
+---------------------
+choose a type of framework 
+- angular
+- react
+- marionette? w.e
+libraries that have to be auto preloaded
+- jquery
+- bootstrap
+- lodash
+- angular + angular ui
+- react + redux + etc......
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-## Official Documentation
+backend
+--------------------
+what modules do i need?
+specifically using mongodb, mongojs, mongoose?
+authentication
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+server side - api focused
+--------------------
+custom vagrant box for deployment
+what should the vagrant box contain?
+node, npm
 
-### Contributing To Laravel
+cli
+--------------------
+scaffolding / generating boilerplate templates
+templating in the backend and in the frontend
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+directory structure
+---------------------
+for both the api/backend and the client/frontend
+domain driven design
+hexagonal architecture
+MVC
+repositories
+commander bus pattern
+decorator pattern
+adapter pattern
+event pattern (pub sub model?)
 
-### License
+documentation
+---------------------
+need a website for that shit 
+a repo to keep track of the docs
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+MEAN
+mongo, angular 2?, express /, nodejs /
+
+use laravel spark as a reference for wat we need out of the box
+---------------------------------------
+authentication - full featured with user permissions
+oauth - fb, twitter, linkined, github etc....
+2 factor authentication
+
+blog example module with the commander pattern
+
+automation
+----------------
+uses webpack
+gulp
+browserify
+bablify so we can use ecmascript 6
+browsync
+uglify for production js and css
+concat both of js and css
+
+we have to follow those 7 steps of api design right? how does that directory structure look like?
+how is each step all the way from route names to the end of events and transformer responses?
